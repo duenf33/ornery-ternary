@@ -56,7 +56,7 @@ describe('goodbyeYou', () => {
 })
 
 describe('darkAndStormyNight', () => {
-  it("returns the string 'It was a dark and stormy night.' if given a string that is exactly 'dark' and a rainfall that is aboe `0.5`.", () => {
+  it("returns the string 'It was a dark and stormy night.' if given a string that is exactly 'dark' and a rainfall that is above `0.5`.", () => {
     const brightness1 = 'dark';
     const rainfall1 = 1;
     const brightness2 = 'dark';
